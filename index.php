@@ -6,7 +6,7 @@ $input= json_decode( $inputJSON, TRUE );
 
 //echo "Hello " , $input['name'] , ", " , "Your age is ", $input['age'];
 
-  $arr = array('status' => 'saved', 'data'=>"Name = ".$input['name']."Age = ".$input['age']);
+  $arr = array('status' => 'saved', 'data'=>"Name = ".$input['name'].", Age = ".$input['age']);
   echo json_encode($arr);
 
 ?>
